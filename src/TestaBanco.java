@@ -1,16 +1,16 @@
 public class TestaBanco {
 	public static void main(String[] args) {
-		Cliente paulo = new Cliente();
-		paulo.setNome("Guilherme Henrique");
-		paulo.setCpf("222.222.222.-22");
-		paulo.setProfissao("programador");
+		Cliente guilherme = new Cliente();
+		guilherme.setNome("Guilherme Henrique");
+		guilherme.setCpf("222.222.222.-22");
+		guilherme.setProfissao("programador");
 
-		Conta contaDoPaulo = new Conta(6646,969060);
-		contaDoPaulo.deposita(100);
+		Conta contaDoGuilherme = new Conta(6646,969060);
+		contaDoGuilherme.deposita(100);
 
-		contaDoPaulo.setTitular(paulo);
-		System.out.println(contaDoPaulo.getTitular().getNome());
-		System.out.println(contaDoPaulo.getTitular());
+		contaDoGuilherme.setTitular(paulo);
+		System.out.println(contaDoGuilherme.getTitular().getNome());
+		System.out.println(contaDoGuilherme.getTitular());
 
 	}
 }
