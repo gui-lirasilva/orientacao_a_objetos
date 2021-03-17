@@ -8,7 +8,7 @@ public class TestaBanco {
 		Conta contaDoGuilherme = new Conta(6646,969060);
 		contaDoGuilherme.deposita(100);
 
-		contaDoGuilherme.setTitular(paulo);
+		contaDoGuilherme.setTitular(guilherme);
 		System.out.println(contaDoGuilherme.getTitular().getNome());
 		System.out.println(contaDoGuilherme.getTitular());
 
